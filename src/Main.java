@@ -2,15 +2,10 @@ public class Main {
     public static void main(String[] args) {
         LinkedList linkedList = new LinkedList();
         linkedList.agregarHead(5);
-        linkedList.agregarHead(6);
-        linkedList.agregarHead(7);
-        linkedList.agregarHead(5);
-        linkedList.agregarHead(6);
-        linkedList.agregarHead(7);
-        linkedList.agregarHead(5);
-        linkedList.agregarHead(6);
-        linkedList.agregarHead(7);
+        linkedList.agregarHead(3);
+        linkedList.agregarHead(0);
         linkedList.agregarTail(10);
+        linkedList.agregarPorPosicion(2, 99);
     }
     // [7] -> [6] -> [5]
     // [7] -> [0] -> [5] -> [10]
