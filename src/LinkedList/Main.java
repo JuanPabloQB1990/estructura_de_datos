@@ -13,9 +13,11 @@ public class Main {
         linkedList.agregarPorPosicion(2, 99);
         linkedList.imprimirLinkedList();
         linkedList.buscarPorPosicion(2);
-        linkedList.eliminarPorPosicion(3);
         linkedList.buscarValor(3);
+
         linkedList.reemplazarNodo(3,100);
+        linkedList.imprimirLinkedList();
+        //linkedList.eliminarPorPosicion(3);
         linkedList.imprimirLinkedList();
         linkedList.eliminarHead();
         linkedList.eliminarTail();

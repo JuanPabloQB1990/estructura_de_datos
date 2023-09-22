@@ -132,10 +132,20 @@ public class LinkedList {
             System.out.println("Nodo: "+currentPos+" " +((actual == head)?cabeza : (actual == tail)?cola:"    ")+" => value: "+actual.value + " => next: "+ ((actual.next != null) ? actual.next.value : null));
             actual = actual.next;
             currentPos += 1;
-
         }
-
     }
+
+
+
+
+
+
+
+
+
+
+
+
     // eliminar al inicio
     public void eliminarHead(){
         if (head != null){
